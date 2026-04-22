@@ -13,7 +13,7 @@ body{
 main{
     width: 70%;
     aspect-ratio: 1.9 / 1;
-    margin: 2% 0;
+    margin: 2% 15%;
     justify-self: center;
     align-self: center;
     border: 5px #00f2ff solid;
