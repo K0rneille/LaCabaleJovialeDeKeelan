@@ -16,7 +16,7 @@ main{
     margin: 2% 10%;
     justify-self: center;
     align-self: center;
-    border: 5px #00f2ff solid;
+    border: 5px #00ffdd solid;
     border-radius: 16px;
     position: relative;
     box-shadow: #00f2ff4d 0 0 21px;
@@ -32,7 +32,7 @@ main::before{
     left: 0;
     top: 50%;
     background-color: #131313;
-    border: 5px #00f2ff solid;
+    border: 5px #00ffdd solid;
         transform: translateX(-50%) translateY(-50%);
 
     border-radius: 60px;
@@ -48,7 +48,7 @@ main::after{
     left: 0;
     top: 50%;
     background-color:#131313;
-    border: 5px #00f2ff solid;
+    border: 5px #00ffdd solid;
     transform: translateX(-50%) translateY(-50%);
     border-radius: 60px;
     box-shadow: #00f2ff4d 0 0 21px;
@@ -56,7 +56,7 @@ main::after{
 
 
 h1{
-    color: #00f2ff;
+    color: #00ffdd;
     justify-self: center;
     font-size: clamp(40px ,0.8rem + 10vw, 213px);
     margin: 0;
@@ -79,7 +79,6 @@ h1{
     }
     .section__img{
         width: 50%;
-        background-color: gray;
     }
 }
 .page--active{
@@ -100,14 +99,14 @@ color: white;    font-size: clamp(16px, 0.8rem + 1vw ,21px);
 nav{
 
     .nav__btn{
-        color: #00f2ff;
+        color: #00ffdd;
         display: flex;
         align-items: center;
         gap: 8px;
         width:45%;
  ;
         justify-content: right;
-        border: #00f2ff 2px solid;
+        border: #00ffdd 2px solid;
         padding:16px ;
         border-radius: 50px;
         svg{
@@ -121,7 +120,7 @@ nav{
     }
 
     .nav__btn:hover{
-        background-color: #00f2ff;
+        background-color: #00ffdd;
         color: #131313;
         svg{
             path{
