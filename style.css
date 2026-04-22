@@ -11,12 +11,12 @@ body{
 
 
 main{
-    width: 70%;
+    width: 80%;
     aspect-ratio: 1.9 / 1;
-    margin: 2% 0;
+    margin: 2% 10%;
     justify-self: center;
     align-self: center;
-    border: 5px #00f2ff solid;
+    border: 5px #00ffdd solid;
     border-radius: 16px;
     position: relative;
     box-shadow: #00f2ff4d 0 0 21px;
@@ -32,7 +32,7 @@ main::before{
     left: 0;
     top: 50%;
     background-color: #131313;
-    border: 5px #00f2ff solid;
+    border: 5px #00ffdd solid;
         transform: translateX(-50%) translateY(-50%);
 
     border-radius: 60px;
@@ -48,7 +48,7 @@ main::after{
     left: 0;
     top: 50%;
     background-color:#131313;
-    border: 5px #00f2ff solid;
+    border: 5px #00ffdd solid;
     transform: translateX(-50%) translateY(-50%);
     border-radius: 60px;
     box-shadow: #00f2ff4d 0 0 21px;
@@ -56,7 +56,7 @@ main::after{
 
 
 h1{
-    color: #00f2ff;
+    color: #00ffdd;
     justify-self: center;
     font-size: clamp(40px ,0.8rem + 10vw, 213px);
     margin: 0;
@@ -72,9 +72,18 @@ h1{
     margin: 32px 0;
     flex-direction: column;
     gap:24px ;
+    flex-direction: row;
+
+    .page__content{
+        width: 50%;
+    }
+    .section__img{
+        width: 50%;
+    }
 }
 .page--active{
     display: flex;
+
 }
 h2{
 margin: 0;
@@ -90,18 +99,34 @@ color: white;    font-size: clamp(16px, 0.8rem + 1vw ,21px);
 nav{
 
     .nav__btn{
+        color: #00ffdd;
         display: flex;
         align-items: center;
         gap: 8px;
-        width: 45%;
+        width:45%;
+ ;
         justify-content: right;
+        border: #00ffdd 2px solid;
+        padding:16px ;
+        border-radius: 50px;
         svg{
-            width: 28px;
+            width: 16px;
+            
             
         }
 
         color: #eeee;
         text-decoration: none;
+    }
+
+    .nav__btn:hover{
+        background-color: #00ffdd;
+        color: #131313;
+        svg{
+            path{
+            stroke: #131313;
+            }
+        }
     }
 
     .nav__after{
