@@ -113,7 +113,7 @@ nav{
     display: flex;
     flex-direction: row;
 
-    .nav__positions{
+    .position__point{
         padding: 0;
         display: flex;
         flex-direction: row;
@@ -137,4 +137,25 @@ nav{
         .nav__element--active{
             background-color: #eeee;
         }
-    }}
+    }
+    @media (max-width: 650px) {
+    
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+    .nav__positions{
+        grid-row: 1;
+        grid-column: 1/ -1;
+        
+    }
+
+
+        .nav__btn p{
+            display: none;
+        } 
+    .nav__before{
+        justify-self:  end;
+    }    }
+}
+    
