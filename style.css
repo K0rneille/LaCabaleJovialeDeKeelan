@@ -1,4 +1,10 @@
-
+@font-face {
+    font-family: 'Rumbled Grunge';
+    src: url('RumbledGrungeRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 *{
     box-sizing: border-box;
 }
@@ -164,3 +170,14 @@ nav{
         }
     }}
 
+p{
+    font-family: "poppins", sans-serif;
+}
+
+h2{
+    font-family: "orbitron", sans-serif;
+}
+
+h1{
+    font-family: 'Rumbled Grunge';
+}
